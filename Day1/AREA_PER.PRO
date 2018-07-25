@@ -1,0 +1,10 @@
+Domains
+R=real
+A=real
+P=real
+Predicates
+area(real)
+Peri(real)
+Clauses
+area(R):-A=3.14*R*R,write(A).
+Peri(R):-P=2*3.14*R,write(P).

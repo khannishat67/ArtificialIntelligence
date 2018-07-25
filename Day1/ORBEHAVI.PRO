@@ -1,0 +1,9 @@
+Domains
+A=integer
+B=integer
+Predicates
+or1(integer,integer)
+Clauses
+or1(A,B):-A=B,A=0,write(0).
+or1(A,B):-A=B,A=1,write(1).
+or1(A,B):-A<>B,write(1).

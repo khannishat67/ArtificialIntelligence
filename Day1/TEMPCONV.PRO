@@ -1,0 +1,9 @@
+Domains
+C=real
+F=real
+Predicates
+ConvToC(real)
+ConvToF(real)
+Clauses
+ConvToC(F):-C=(F-32)*5/9,write(C).
+ConvToF(C):-F=(C*9/5)+32,write(F).

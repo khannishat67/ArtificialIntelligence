@@ -1,0 +1,9 @@
+Domains
+A=integer
+B=integer
+C=integer
+AV=integer
+Predicates
+Average(integer,integer,integer)
+Clauses
+Average(A,B,C):-AV=(A+B+C)/3,write(AV).
